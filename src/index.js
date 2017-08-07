@@ -3,9 +3,14 @@ import ReactDom from 'react-dom';
 
 //  Create a new compponent this produces HTML
 
+// const App = function() {
+//     return <div > Hi! < /div>;
+// }
 
 
-const App = function() {
+//same => identical to do functions
+const App = () => {
+
     return <div > Hi! < /div>;
 
 }
